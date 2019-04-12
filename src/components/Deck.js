@@ -13,11 +13,12 @@ class Deck extends React.Component {
         this.state.deck.push({ suit, number })
       })
     })
-    console.log(this.state.deck);
+    // console.log(this.state.deck);
   }
 
   pick() {
-    return this.state.deck.splice(Math.floor(Math.random() * Math.floor(deck.length)), 1)[0]
+    console.log('test');
+    // return this.state.deck.splice(Math.floor(Math.random() * Math.floor(deck.length)), 1)[0]
   }
 
   render() {
